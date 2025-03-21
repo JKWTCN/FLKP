@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="FLKP.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FLKP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" Title="FLKP">
+
+    <Grid Name="main_grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock VerticalAlignment="Center" Name="day0_text" Grid.Column="1" Grid.Row="1"></TextBlock>
+        <TextBlock VerticalAlignment="Center" Name="day1_text" Grid.Column="2" Grid.Row="1"></TextBlock>
+        <TextBlock VerticalAlignment="Center" Name="day2_text" Grid.Column="3" Grid.Row="1"></TextBlock>
+        <TextBlock VerticalAlignment="Center" Name="day3_text" Grid.Column="4" Grid.Row="1"></TextBlock>
+        <TextBlock VerticalAlignment="Center" Name="day4_text" Grid.Column="5" Grid.Row="1"></TextBlock>
+        <TextBlock VerticalAlignment="Center" Name="day5_text" Grid.Column="6" Grid.Row="1"></TextBlock>
+        <TextBlock VerticalAlignment="Center" Name="day6_text" Grid.Column="7" Grid.Row="1"></TextBlock>
+
+        <TextBlock VerticalAlignment="Center" Grid.Column="1" Grid.Row="2">周日</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="2" Grid.Row="2">周一</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="3" Grid.Row="2">周二</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="4" Grid.Row="2">周三</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="5" Grid.Row="2">周四</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="6" Grid.Row="2">周五</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="7" Grid.Row="2">周六</TextBlock>
+
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="3">节制欲望</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="4">自我控制</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="5">沉默寡言</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="6">有条不紊</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="7">信心坚定</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="8">节约开支</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="9">勤奋努力</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="10">表里一致</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="11">待人公正</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="12">保持清洁</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="13">谨言慎行</TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="14">谦虚有礼</TextBlock>
+
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" Name="cb01" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="4" Name="cb02" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5" Name="cb03" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="6" Name="cb04" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="7" Name="cb05" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="8" Name="cb06" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="9" Name="cb07" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="10" Name="cb08" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="11" Name="cb09" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="12" Name="cb0A" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="13" Name="cb0B" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="1" Grid.Row="14" Name="cb0C" IsEnabled="False"></CheckBox>
+
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3" Name="cb11" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="4" Name="cb12" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="5" Name="cb13" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="6" Name="cb14" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="7" Name="cb15" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="8" Name="cb16" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="9" Name="cb17" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="10" Name="cb18" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="11" Name="cb19" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="12" Name="cb1A" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="13" Name="cb1B" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="2" Grid.Row="14" Name="cb1C" IsEnabled="False"></CheckBox>
+
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="3" Name="cb21" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="4" Name="cb22" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="5" Name="cb23" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="6" Name="cb24" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="7" Name="cb25" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="8" Name="cb26" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="9" Name="cb27" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="10" Name="cb28" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="11" Name="cb29" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="12" Name="cb2A" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="13" Name="cb2B" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="3" Grid.Row="14" Name="cb2C" IsEnabled="False"></CheckBox>
+
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="3" Name="cb31" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="4" Name="cb32" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="5" Name="cb33" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="6" Name="cb34" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="7" Name="cb35" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="8" Name="cb36" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="9" Name="cb37" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="10" Name="cb38" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="11" Name="cb39" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="12" Name="cb3A" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="13" Name="cb3B" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="4" Grid.Row="14" Name="cb3C" IsEnabled="False"></CheckBox>
+
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="3" Name="cb41" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="4" Name="cb42" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="5" Name="cb43" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="6" Name="cb44" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="7" Name="cb45" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="8" Name="cb46" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="9" Name="cb47" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="10" Name="cb48" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="11" Name="cb49" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="12" Name="cb4A" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="13" Name="cb4B" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="5" Grid.Row="14" Name="cb4C" IsEnabled="False"></CheckBox>
+
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="3" Name="cb51" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="4" Name="cb52" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="5" Name="cb53" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="6" Name="cb54" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="7" Name="cb55" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="8" Name="cb56" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="9" Name="cb57" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="10" Name="cb58" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="11" Name="cb59" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="12" Name="cb5A" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="13" Name="cb5B" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="6" Grid.Row="14" Name="cb5C" IsEnabled="False"></CheckBox>
+
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="3" Name="cb61" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="4" Name="cb62" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="5" Name="cb63" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="6" Name="cb64" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="7" Name="cb65" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="8" Name="cb66" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="9" Name="cb67" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="10" Name="cb68" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="11" Name="cb69" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="12" Name="cb6A" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="13" Name="cb6B" IsEnabled="False"></CheckBox>
+        <CheckBox Checked="Option_Checked" Unchecked="Option_Unchecked" VerticalAlignment="Center" Grid.Column="7" Grid.Row="14" Name="cb6C" IsEnabled="False"></CheckBox>
+
+    </Grid>
+</Window>

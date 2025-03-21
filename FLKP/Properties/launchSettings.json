@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FLKP (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FLKP (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
